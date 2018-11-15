@@ -73,10 +73,10 @@ async function getMoviesFromApi() {
 Don't forget to catch any errors that may be thrown by `fetch`, otherwise they will be dropped silently.
 
 ```SnackPlayer name=Fetch%20Example
-import React from 'react';
+import React, { Component } from 'react';
 import { FlatList, ActivityIndicator, Text, View  } from 'react-native';
 
-export default class FetchExample extends React.Component {
+export default class FetchExample extends Component {
 
   constructor(props){
     super(props);
